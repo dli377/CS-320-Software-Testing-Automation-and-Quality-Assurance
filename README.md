@@ -1,1 +1,14 @@
-# CS-320-Software-Testing-Automation-and-Quality-Assurance
+# CS-320: Software Testing, Automation, and Quality Assurance Portfolio
+
+This repository contains artifacts demonstrating my software testing, automation, and quality assurance work. The included files—specifically the `Contact` service components and the Summary and Reflections Report—highlight my ability to analyze requirements, apply appropriate testing strategies, and write automated Unit Tests using JUnit to uncover errors.
+
+## Reflection on the Course
+
+### How can I ensure that my code, program, or software is functional and secure?
+Ensuring functionality and security requires a proactive, test-centric mindset and the implementation of strict, rule-based constraints at the foundational level of the code.  I ensure functionality by writing comprehensive automated unit tests—specifically utilizing JUnit—that achieve high code coverage across both valid and invalid input paths. By applying techniques like Boundary Value Analysis, I can verify that the software handles edge cases without breaking. For security and integrity, I practice strict data encapsulation and immediate validation within object constructors and setters. By forcing the software to "fail fast" and throw exceptions when invalid data is introduced, I prevent compromised or malformed data from ever entering the system's memory or database.
+
+### How do I interpret user needs and incorporate them into a program?
+Interpreting user needs involves breaking down broad client requirements into highly specific, testable constraints. When a user or client provides a requirement (e.g., "A contact must have a unique ID no longer than 10 characters"), I immediately translate that need into a negative and positive test case before or during development. This ensures that the user's operational needs are hardcoded into the system's validation logic. Incorporating these needs effectively means building software where the business rules dictate the architecture, guaranteeing that the final program aligns exactly with the client's original specifications.
+
+### How do I approach designing software?
+My approach to software design is modular, scalable, and built on solid data structures. I start by isolating the core entities (like a `Contact` or `Task`) and defining their precise constraints. Once the basic objects are sound, I design service classes to handle the business logic and storage, keeping the two responsibilities separate. I also prioritize algorithmic efficiency early in the design process; for instance, opting for key-value structures like HashMaps over standard Lists when designing in-memory storage to ensure O(1) constant-time complexity for lookups and deletions. Ultimately, my design philosophy treats testing not as an afterthought, but as an integral part of the development lifecycle that drives the structure of the code itself.
