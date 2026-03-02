@@ -1,6 +1,6 @@
 # CS-320: Software Testing, Automation, and Quality Assurance Portfolio
 
-This repository contains artifacts demonstrating my software testing, automation, and quality assurance work. The included files—specifically the `Contact` service components and the Summary and Reflections Report—highlight my ability to analyze requirements, apply appropriate testing strategies, and write automated Unit Tests using JUnit to uncover errors.
+This repository contains artifacts from my course work in CS-320: software testing, automation, and quality assurance. The included files, specifically the `Contact` service components and the Summary and Reflections Report.
 
 ## Reflection on the Course
 
